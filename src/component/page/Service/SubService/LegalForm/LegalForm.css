@@ -1,0 +1,117 @@
+.form-main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.form img{
+    width: 100%;
+    height: 500px;
+
+}
+.form-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+.form-detail label{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.form-detail input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height:30px;
+    font-size: 15px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: cursive;
+
+}
+.form-detail select{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height:30px;
+    font-size: 15px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: cursive;
+    
+}
+option:checked{
+    background: green;
+    color: white;
+ }
+ .image-container{
+    display: flex;
+ }
+.images{
+   
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.images img{
+    width: 250px;
+    height: 220px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:  20px 20px 50px #b79ee0;
+}
+
+.form-detail button{
+    width: 200px;
+    height: 50px;
+    margin:0 0 50px 500px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #01a66e;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+@media screen and (max-width: 768px){
+    .form img{
+        width: 370px;
+        height: 250px;
+    }
+    .form-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .form-detail input{
+        
+        width: 280px;
+    }
+    .form-detail select{
+        width: 280px;
+
+    }
+    .image-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-detail button{
+        margin:20px 0 50px 0px;
+    }
+}

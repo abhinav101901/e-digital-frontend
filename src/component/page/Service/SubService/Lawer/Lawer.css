@@ -1,0 +1,48 @@
+.l-main{
+    background-color:#01a66e;
+    height:700px;
+} 
+.Lawer-image {
+   display:flex
+}
+.Lawer-image img{
+    width: 620px;
+    height: 300px;
+}
+
+.Lawer-contaner{
+    border: 5px solid black;
+    margin: 60px 0 0 200px;
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Lawer-contaner p{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+@media (max-width: 880px){
+    .LawerImage{
+        display: none;
+    }
+    .Lawer-image img{
+        width: 375px;
+        height: 200px;
+    }
+    .Lawer-contaner{
+        border: none;
+        margin: 10px 0 0 20px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .Lawer-contaner p{
+        font-size: 20px;
+        font-family: cursive;
+    }
+
+}

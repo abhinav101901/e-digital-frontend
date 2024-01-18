@@ -1,0 +1,66 @@
+.About-main{
+  border-radius: 30px;
+  box-shadow: 10px 20px 30px 15px #b79ee0;
+  margin: 50px;
+}
+
+.About-contaner{
+    display: flex;
+    flex-direction: row;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+}
+
+.Content h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.Content p{
+    font-size: 20px;
+    font-family:monospace;
+
+}
+.About-main img{
+    width: 650px;
+    height: 600px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .About-main {
+      margin: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .About-container {
+        width: 100%;
+        max-width: 200px;
+       /* Stack elements vertically on smaller screens */
+    }
+  
+    .Content {
+      width: 90%;
+      text-align: center; /* Adjust width to fit smaller screens */
+    }
+  
+    .Content h1 {
+        margin-top: -2px;
+      font-size: 35px; /* Reduce font size for smaller screens */
+    }
+  
+    .Content p {
+      font-size: 18px; /* Reduce font size for smaller screens */
+    }
+  
+    .About-main img {
+      display: none; /* Maintain aspect ratio */
+    }
+  }

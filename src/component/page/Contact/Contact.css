@@ -1,0 +1,93 @@
+.Contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+}
+.Contact-info h2{
+    margin-top: -10px;
+    font-family:cursive;
+    font-size: 50px;
+}
+.Contact-info p{
+    margin-top: -2px;
+    font-family:cursive;
+    font-size: 15px;
+}
+.Contact-info form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 600px;
+}
+.Contact-info input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.Contact-info button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(26, 219, 26);
+}
+img{
+    width: 550px;
+    height: 550px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .Contact-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Contact-info h1{
+        font-size: 15px;
+    }
+    .Contact-info h2 {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .Contact-info p {
+        font-size: 15px;
+    }
+
+    .Contact-info form {
+        width: 100%;
+        max-width: 200px;
+        margin-top: 10px;
+    }
+
+    .Contact-info input {
+        width: 250px;
+        font-size: 15px;
+        height: 35px;
+        margin: 5px 0;
+    }
+
+    .Contact-info button {
+        font-size: 15px;
+        height: 35px;
+        margin: 10px 0;
+    }
+
+    .Contact-info img {
+        display: none;
+    }
+}

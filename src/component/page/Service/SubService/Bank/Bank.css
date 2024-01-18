@@ -1,0 +1,49 @@
+.b-main{
+    background-color: #01a66e;
+    height: 700px;
+}
+
+
+
+.Bank-img img{
+    width: 630px;
+    height: 400px; 
+}
+
+.Bank-text{
+    border: 5px solid black;
+    margin: 40px 0 0 200px;
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Bank-text p{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+@media (max-width: 880px){
+    .BankImage{
+        display: none;
+    }
+    .Bank-img img{
+        width: 375px;
+        height: 200px;
+        
+    }
+    .Bank-text{
+        border: none;
+        margin: 10px 0 0 15px;
+        width: 300px;
+    }
+    
+    .Bank-text p{
+        font-size: 20px;
+        font-family: cursive;
+    
+    }
+
+}

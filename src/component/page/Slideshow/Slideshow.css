@@ -1,0 +1,19 @@
+.slide{
+    margin:10px  0 0 200px; 
+}
+.slide img {
+    width: 900px;
+    height: 500px;
+  }
+ 
+  
+
+  @media only screen and (max-width: 767px) {
+    .slide{
+        margin: 100px 0 0 0;
+    }
+    .slide img {
+        width: 100%; /* Ensures image takes full width of the screen */
+        height: 300px; /* Maintains image aspect ratio */
+    }
+}
