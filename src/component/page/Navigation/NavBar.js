@@ -39,7 +39,9 @@ function NavBar() {
                     </ul>
                 </div>
             </nav>
-            <Slideshow />
+            <div>
+                <Slideshow />
+            </div>
             <div ref={services} className='services'>
                 <Service />
             </div>

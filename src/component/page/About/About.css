@@ -7,6 +7,7 @@
 .About-contaner{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .Content{
@@ -21,11 +22,12 @@
 .Content h1{
     font-size: 50px;
     font-family: cursive;
+    padding:10px;
 }
 
 .Content p{
     font-size: 20px;
-    font-family:monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .About-main img{
@@ -35,7 +37,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
     .About-main {
       margin: 20px; /* Adjust margin for smaller screens */
     }
